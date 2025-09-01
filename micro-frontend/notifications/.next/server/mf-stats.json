@@ -1,0 +1,300 @@
+{
+  "id": "notifications_app",
+  "name": "notifications_app",
+  "metaData": {
+    "name": "notifications_app",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "notifications"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "commonjs-module"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "notifications_app",
+    "pluginVersion": "0.18.3",
+    "prefetchInterface": false,
+    "publicPath": "/_next/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "shareScope": "default",
+      "name": "next/dynamic",
+      "version": "15.5.0",
+      "eager": false,
+      "id": "notifications_app:next/dynamic",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next-6002e4ace21246ce.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "shareScope": "default",
+      "name": "next/head",
+      "version": "15.5.0",
+      "eager": false,
+      "id": "notifications_app:next/head",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next-6002e4ace21246ce.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "shareScope": "default",
+      "name": "next/image",
+      "version": "15.5.0",
+      "eager": false,
+      "id": "notifications_app:next/image",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next-6002e4ace21246ce.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "shareScope": "default",
+      "name": "next/link",
+      "version": "15.5.0",
+      "eager": false,
+      "id": "notifications_app:next/link",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next-6002e4ace21246ce.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "shareScope": "default",
+      "name": "next/router",
+      "version": "15.5.0",
+      "eager": false,
+      "id": "notifications_app:next/router",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next-6002e4ace21246ce.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "shareScope": "default",
+      "name": "next/script",
+      "version": "15.5.0",
+      "eager": false,
+      "id": "notifications_app:next/script",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next-6002e4ace21246ce.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "shareScope": "default",
+      "name": "react-dom",
+      "version": "19.1.0",
+      "eager": false,
+      "id": "notifications_app:react-dom",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react-dom-f0fba393cb182cc5.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "shareScope": "default",
+      "name": "react/jsx-dev-runtime",
+      "version": "19.1.0",
+      "eager": false,
+      "id": "notifications_app:react/jsx-dev-runtime",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react-28b23072ff70a8d0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./NotificationsApp"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "shareScope": "default",
+      "name": "react/jsx-runtime",
+      "version": "19.1.0",
+      "eager": false,
+      "id": "notifications_app:react/jsx-runtime",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react-28b23072ff70a8d0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "shareScope": "default",
+      "name": "react",
+      "version": "19.1.0",
+      "eager": false,
+      "id": "notifications_app:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react-28b23072ff70a8d0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./NotificationsApp"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^5.1.6",
+      "shareScope": "default",
+      "version": "5.1.6",
+      "name": "styled-jsx",
+      "eager": false,
+      "id": "notifications_app:styled-jsx",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/styled-jsx-c4ec41ec581fad9e.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": "./NotificationsApp",
+      "id": "notifications_app:NotificationsApp",
+      "name": "NotificationsApp",
+      "requires": [
+        "react/jsx-dev-runtime",
+        "react"
+      ],
+      "file": "pages\\index.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_NotificationsApp-14b1b319c939ac61.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    }
+  ]
+}
