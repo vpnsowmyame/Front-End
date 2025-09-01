@@ -1,0 +1,14 @@
+{
+  "pages\\index.js -> chart_app/ChartApp": {
+    "id": "pages\\index.js -> chart_app/ChartApp",
+    "files": []
+  },
+  "pages\\index.js -> notifications_app/NotificationsApp": {
+    "id": "pages\\index.js -> notifications_app/NotificationsApp",
+    "files": []
+  },
+  "pages\\index.js -> profile_app/ProfileApp": {
+    "id": "pages\\index.js -> profile_app/ProfileApp",
+    "files": []
+  }
+}

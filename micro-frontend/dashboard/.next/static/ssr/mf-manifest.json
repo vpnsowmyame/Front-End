@@ -1,0 +1,259 @@
+{
+  "id": "dashboard",
+  "name": "dashboard",
+  "metaData": {
+    "name": "dashboard",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "dashboard"
+    },
+    "remoteEntry": {
+      "name": "",
+      "path": "",
+      "type": "commonjs-module"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "dashboard",
+    "pluginVersion": "0.18.3",
+    "prefetchInterface": false,
+    "publicPath": "/_next/"
+  },
+  "shared": [
+    {
+      "id": "dashboard:next/dynamic",
+      "name": "next/dynamic",
+      "version": "15.5.0",
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "dashboard:next/head",
+      "name": "next/head",
+      "version": "15.5.0",
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "dashboard:next/image",
+      "name": "next/image",
+      "version": "15.5.0",
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "dashboard:next/link",
+      "name": "next/link",
+      "version": "15.5.0",
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "dashboard:next/router",
+      "name": "next/router",
+      "version": "15.5.0",
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "dashboard:next/script",
+      "name": "next/script",
+      "version": "15.5.0",
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "dashboard:react-dom",
+      "name": "react-dom",
+      "version": "19.1.0",
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react-dom-f0fba393cb182cc5.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "dashboard:react/jsx-dev-runtime",
+      "name": "react/jsx-dev-runtime",
+      "version": "19.1.0",
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react-28b23072ff70a8d0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "dashboard:react/jsx-runtime",
+      "name": "react/jsx-runtime",
+      "version": "19.1.0",
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react-28b23072ff70a8d0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "dashboard:react",
+      "name": "react",
+      "version": "19.1.0",
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react-28b23072ff70a8d0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "dashboard:styled-jsx",
+      "name": "styled-jsx",
+      "version": "5.1.6",
+      "singleton": true,
+      "requiredVersion": "^5.1.6",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/styled-jsx-aee6fd205f120c3d.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "federationContainerName": "chart_app",
+      "moduleName": "ChartApp",
+      "alias": "chart_app",
+      "entry": "http://localhost:3001/_next/static/ssr/remoteEntry.js"
+    },
+    {
+      "federationContainerName": "profile_app",
+      "moduleName": "ProfileApp",
+      "alias": "profile_app",
+      "entry": "http://localhost:3002/_next/static/ssr/remoteEntry.js"
+    },
+    {
+      "federationContainerName": "notifications_app",
+      "moduleName": "NotificationsApp",
+      "alias": "notifications_app",
+      "entry": "http://localhost:3003/_next/static/ssr/remoteEntry.js"
+    }
+  ],
+  "exposes": []
+}

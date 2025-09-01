@@ -1,0 +1,304 @@
+{
+  "id": "dashboard",
+  "name": "dashboard",
+  "metaData": {
+    "name": "dashboard",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "dashboard"
+    },
+    "remoteEntry": {
+      "name": "",
+      "path": "",
+      "type": "commonjs-module"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "dashboard",
+    "pluginVersion": "0.18.3",
+    "prefetchInterface": false,
+    "publicPath": "/_next/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "shareScope": "default",
+      "name": "next/dynamic",
+      "version": "15.5.0",
+      "eager": false,
+      "id": "dashboard:next/dynamic",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "shareScope": "default",
+      "name": "next/head",
+      "version": "15.5.0",
+      "eager": false,
+      "id": "dashboard:next/head",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "shareScope": "default",
+      "name": "next/image",
+      "version": "15.5.0",
+      "eager": false,
+      "id": "dashboard:next/image",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "shareScope": "default",
+      "name": "next/link",
+      "version": "15.5.0",
+      "eager": false,
+      "id": "dashboard:next/link",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "shareScope": "default",
+      "name": "next/router",
+      "version": "15.5.0",
+      "eager": false,
+      "id": "dashboard:next/router",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "shareScope": "default",
+      "name": "next/script",
+      "version": "15.5.0",
+      "eager": false,
+      "id": "dashboard:next/script",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "shareScope": "default",
+      "name": "react-dom",
+      "version": "19.1.0",
+      "eager": false,
+      "id": "dashboard:react-dom",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react-dom-f0fba393cb182cc5.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "shareScope": "default",
+      "name": "react/jsx-dev-runtime",
+      "version": "19.1.0",
+      "eager": false,
+      "id": "dashboard:react/jsx-dev-runtime",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react-28b23072ff70a8d0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "shareScope": "default",
+      "name": "react/jsx-runtime",
+      "version": "19.1.0",
+      "eager": false,
+      "id": "dashboard:react/jsx-runtime",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react-28b23072ff70a8d0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "shareScope": "default",
+      "name": "react",
+      "version": "19.1.0",
+      "eager": false,
+      "id": "dashboard:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react-28b23072ff70a8d0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^5.1.6",
+      "shareScope": "default",
+      "version": "5.1.6",
+      "name": "styled-jsx",
+      "eager": false,
+      "id": "dashboard:styled-jsx",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/styled-jsx-aee6fd205f120c3d.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    }
+  ],
+  "remotes": [
+    {
+      "alias": "chart_app",
+      "consumingFederationContainerName": "dashboard",
+      "federationContainerName": "chart_app",
+      "moduleName": "ChartApp",
+      "usedIn": [
+        "pages/index.js"
+      ],
+      "entry": "http://localhost:3001/_next/static/ssr/remoteEntry.js"
+    },
+    {
+      "alias": "profile_app",
+      "consumingFederationContainerName": "dashboard",
+      "federationContainerName": "profile_app",
+      "moduleName": "ProfileApp",
+      "usedIn": [
+        "pages/index.js"
+      ],
+      "entry": "http://localhost:3002/_next/static/ssr/remoteEntry.js"
+    },
+    {
+      "alias": "notifications_app",
+      "consumingFederationContainerName": "dashboard",
+      "federationContainerName": "notifications_app",
+      "moduleName": "NotificationsApp",
+      "usedIn": [
+        "pages/index.js"
+      ],
+      "entry": "http://localhost:3003/_next/static/ssr/remoteEntry.js"
+    }
+  ],
+  "exposes": []
+}
