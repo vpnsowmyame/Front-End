@@ -1,0 +1,1 @@
+{"sharedModules":[],"federatedModules":[{"remote":"chart_app","entry":"static/chunks/remoteEntry.js","sharedModules":[],"exposes":{"./ChartApp":["static/chunks/__federation_expose_ChartApp.js"]},"remoteModules":{}}]}

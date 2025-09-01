@@ -1,0 +1,258 @@
+{
+  "id": "chart_app",
+  "name": "chart_app",
+  "metaData": {
+    "name": "chart_app",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "chart"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "commonjs-module"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "chart_app",
+    "pluginVersion": "0.18.3",
+    "prefetchInterface": false,
+    "publicPath": "/_next/"
+  },
+  "shared": [
+    {
+      "id": "chart_app:next/dynamic",
+      "name": "next/dynamic",
+      "version": "15.5.0",
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next-2188348ef05effe8.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "chart_app:next/head",
+      "name": "next/head",
+      "version": "15.5.0",
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next-2188348ef05effe8.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "chart_app:next/image",
+      "name": "next/image",
+      "version": "15.5.0",
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next-2188348ef05effe8.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "chart_app:next/link",
+      "name": "next/link",
+      "version": "15.5.0",
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next-2188348ef05effe8.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "chart_app:next/router",
+      "name": "next/router",
+      "version": "15.5.0",
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next-2188348ef05effe8.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "chart_app:next/script",
+      "name": "next/script",
+      "version": "15.5.0",
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next-2188348ef05effe8.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "chart_app:react-dom",
+      "name": "react-dom",
+      "version": "19.1.0",
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react-dom-f0fba393cb182cc5.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "chart_app:react/jsx-dev-runtime",
+      "name": "react/jsx-dev-runtime",
+      "version": "19.1.0",
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react-28b23072ff70a8d0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "chart_app:react/jsx-runtime",
+      "name": "react/jsx-runtime",
+      "version": "19.1.0",
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react-28b23072ff70a8d0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "chart_app:react",
+      "name": "react",
+      "version": "19.1.0",
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react-28b23072ff70a8d0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "chart_app:styled-jsx",
+      "name": "styled-jsx",
+      "version": "5.1.6",
+      "singleton": true,
+      "requiredVersion": "^5.1.6",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/styled-jsx-596706bdb5dac08b.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "chart_app:ChartApp",
+      "name": "ChartApp",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_ChartApp-f67714713091ef65.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./ChartApp"
+    }
+  ]
+}
