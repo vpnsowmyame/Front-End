@@ -1,0 +1,35 @@
+/* Base styles (Mobile-first approach) */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Styles for columns on all devices (start with mobile) */
+.row {
+  display: flex; /* Makes the row a flex container */
+  flex-direction: column; /* Stacks columns vertically by default (for mobile) */
+}
+
+.column {
+  background-color: #f4f4f4;
+  padding: 15px;
+  margin: 10px;
+}
+
+/* Media Query for larger screens */
+@media screen and (min-width: 600px) { 
+  .row {
+    flex-direction: row; /* Arranges columns horizontally on larger screens */
+  }
+  
+  .column {
+    flex: 1; /* Makes columns take up equal space */
+  }
+}

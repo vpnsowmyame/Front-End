@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Weather App</title>
+    <!-- Tailwind CSS CDN for easy styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for a clean, modern look */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-image: linear-gradient(to right top, #a2d2ff, #b6d9ff, #cbe0ff, #e0e7ff, #f6eeff);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* Style for loading spinner, if added */
+        .loader {
+            border: 4px solid #f3f3f3; /* Light grey */
+            border-top: 4px solid #3498db; /* Blue */
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            animation: spin 1s linear infinite;
+            display: none; /* Hidden by default */
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="p-4">
+    <div class="weather-container bg-white p-8 rounded-lg shadow-xl max-w-sm w-full text-center">
+        <h1 class="text-3xl font-bold text-gray-800 mb-6">Weather App 🌤️</h1>
+
+        <!-- City Input Section -->
+        <div class="flex flex-col sm:flex-row items-center justify-center space-y-3 sm:space-y-0 sm:space-x-3 mb-6">
+            <input
+                type="text"
+                id="city-input"
+                placeholder="Enter city name..."
+                class="flex-grow p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 w-full sm:w-auto"
+            />
+            <button
+                id="get-weather-btn"
+                class="px-5 py-3 bg-red-600 text-white font-semibold rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 transition-colors duration-200 ease-in-out w-full sm:w-auto"
+            >
+                Get Weather
+            </button>
+        </div>
+
+        <!-- Loading Indicator -->
+        <div id="loading-indicator" class="loader mx-auto mb-4"></div>
+
+        <!-- Error Message Display -->
+        <div id="error-message" class="text-red-600 text-sm mb-4 hidden"></div>
+
+        <!-- Weather Display Section -->
+        <div id="weather-display" class="hidden">
+            <h2 id="city-name" class="text-2xl font-semibold text-gray-700 mb-2"></h2>
+            <img id="weather-icon" src="" alt="Weather Icon" class="mx-auto w-20 h-20 mb-2" onerror="this.onerror=null;this.src='https://placehold.co/80x80/cccccc/000000?text=No+Icon';" />
+            <p id="temperature" class="text-5xl font-extrabold text-red-700 mb-2"></p>
+            <p id="description" class="text-lg text-gray-600 capitalize mb-4"></p>
+            <div class="grid grid-cols-2 gap-4 text-gray-700 text-sm">
+                <div class="p-2 bg-gray-100 rounded-md">Humidity: <span id="humidity" class="font-medium"></span>%</div>
+                <div class="p-2 bg-gray-100 rounded-md">Wind Speed: <span id="wind-speed" class="font-medium"></span> m/s</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // *** IMPORTANT: Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key ***
+        const API_KEY = '7f8f125965438267063bad446eebab69'; // Get your free API key from https://openweathermap.org/api
+        const BASE_URL = 'https://api.openweathermap.org/data/2.5/weather';
+		
+		const PROXY_URL = 'https://cors-anywhere.herokuapp.com/';
+		
+		const fullUrl = `${PROXY_URL}${BASE_URL}`
+
+        // Get references to DOM elements
+        const cityInput = document.getElementById('city-input');
+        const getWeatherBtn = document.getElementById('get-weather-btn');
+        const weatherDisplay = document.getElementById('weather-display');
+        const cityName = document.getElementById('city-name');
+        const weatherIcon = document.getElementById('weather-icon');
+        const temperature = document.getElementById('temperature');
+        const description = document.getElementById('description');
+        const humidity = document.getElementById('humidity');
+        const windSpeed = document.getElementById('wind-speed');
+        const loadingIndicator = document.getElementById('loading-indicator');
+        const errorMessage = document.getElementById('error-message');
+
+        /**
+         * Fetches weather data for a given city from OpenWeatherMap API.
+         * @param {string} city The name of the city.
+         */
+        async function fetchWeatherData(city) {
+            // Hide previous display and error, show loading indicator
+            weatherDisplay.classList.add('hidden');
+            errorMessage.classList.add('hidden');
+            loadingIndicator.style.display = 'block'; // Show loader
+
+            try {
+                // Construct the API URL with city, API key, and units (metric for Celsius)
+                const url = `${fullUrl}?q=${city}&appid=${API_KEY}&units=metric`;
+                const response = await fetch(url);
+
+                // Check if the response was successful
+                if (!response.ok) {
+                    // If not successful, throw an error with the status text
+                    const errorData = await response.json();
+                    throw new Error(errorData.message || 'City not found or API error');
+                }
+
+                // Parse the JSON response
+                const data = await response.json();
+
+                // Update the DOM elements with the fetched data
+                cityName.textContent = data.name;
+                // OpenWeatherMap icon URL structure
+                weatherIcon.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+                temperature.textContent = `${Math.round(data.main.temp)}°C`;
+                description.textContent = data.weather[0].description;
+                humidity.textContent = data.main.humidity;
+                windSpeed.textContent = data.wind.speed;
+
+                // Show the weather display section
+                weatherDisplay.classList.remove('hidden');
+
+            } catch (error) {
+                // Display error message if something goes wrong
+                errorMessage.textContent = `Error: ${error.message}`;
+                errorMessage.classList.remove('hidden');
+                console.error("Failed to fetch weather data:", error);
+            } finally {
+                // Hide loading indicator regardless of success or failure
+                loadingIndicator.style.display = 'none';
+            }
+        }
+
+        // Add event listener to the button
+        getWeatherBtn.addEventListener('click', () => {
+            const city = cityInput.value.trim(); // Get city from input and trim whitespace
+            if (city) { // Only fetch if city input is not empty
+                fetchWeatherData(city);
+            } else {
+                errorMessage.textContent = 'Please enter a city name.';
+                errorMessage.classList.remove('hidden');
+            }
+        });
+
+        // Allow fetching by pressing Enter key in the input field
+        cityInput.addEventListener('keypress', (event) => {
+            if (event.key === 'Enter') {
+                getWeatherBtn.click(); // Simulate a button click
+            }
+        });
+
+        // Initial fetch for a default city (e.g., London) when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchWeatherData('London');
+        });
+
+    </script>
+</body>
+</html>

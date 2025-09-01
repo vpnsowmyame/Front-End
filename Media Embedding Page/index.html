@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Media Embedding</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f5;
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .media-container {
+            max-width: 800px;
+            margin: 0 auto 40px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        video, audio {
+            width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Complex Media Embedding</h1>
+
+    <div class="media-container">
+        <h2>Embedded Video</h2>
+        <video controls poster="https://via.placeholder.com/640x360.png?text=Video+Thumbnail" preload="metadata" loop>
+            <source src="path/to/your-video.mp4" type="video/mp4">
+            <source src="path/to/your-video.webm" type="video/webm">
+            <p>Your browser does not support the video tag.</p>
+            <a href="path/to/your-video.mp4">Download the video instead.</a>
+        </video>
+
+        <track src="path/to/your-captions.vtt" kind="captions" srclang="en" label="English Captions">
+    </div>
+
+    <div class="media-container">
+        <h2>Embedded Audio</h2>
+        <audio controls autoplay muted>
+            <source src="path/to/your-audio.mp3" type="audio/mpeg">
+            <source src="path/to/your-audio.ogg" type="audio/ogg">
+            <p>Your browser does not support the audio element.</p>
+            <a href="path/to/your-audio.mp3">Download the audio file.</a>
+        </audio>
+    </div>
+
+</body>
+</html>
