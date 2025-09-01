@@ -1,5 +1,0 @@
-{
-  "dependencies": {
-    "@module-federation/nextjs-mf": "^8.8.38"
-  }
-}
