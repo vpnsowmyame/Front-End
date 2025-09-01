@@ -1,0 +1,22 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/a2234_next_dist_1cbc9328._.js",
+      "static/chunks/my-complex-app_src_app_favicon_ico_mjs_c26ac3e5._.js",
+      "static/chunks/[root-of-the-server]__8bc5d74b._.css",
+      "static/chunks/my-complex-app_src_app_layout_tsx_0a14269b._.js",
+      "static/chunks/a2234_next_dist_client_components_builtin_global-error_8e5d68cb.js",
+      "static/chunks/a2234_next_dist_4fa93d3d._.js",
+      "static/chunks/my-complex-app_src_app_page_tsx_8e5d68cb._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_1dc91bb9._.js",
+      "static/chunks/a2234_next_dist_compiled_react-dom_aa796f4e._.js",
+      "static/chunks/a2234_next_dist_compiled_next-devtools_index_c9bc6298.js",
+      "static/chunks/a2234_next_dist_compiled_4d6aa1ff._.js",
+      "static/chunks/a2234_next_dist_client_663181c1._.js",
+      "static/chunks/a2234_next_dist_005451df._.js",
+      "static/chunks/a2234_@swc_helpers_cjs_4f533e5a._.js",
+      "static/chunks/my-complex-app_a0ff3932._.js",
+      "static/chunks/turbopack-my-complex-app_9a74c249._.js"
+    ]
+  }
+}
