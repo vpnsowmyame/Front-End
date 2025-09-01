@@ -1,0 +1,300 @@
+{
+  "id": "profile_app",
+  "name": "profile_app",
+  "metaData": {
+    "name": "profile_app",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "profile"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "commonjs-module"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "profile_app",
+    "pluginVersion": "0.18.3",
+    "prefetchInterface": false,
+    "publicPath": "/_next/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "shareScope": "default",
+      "name": "next/dynamic",
+      "version": "15.5.0",
+      "eager": false,
+      "id": "profile_app:next/dynamic",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next-e1095c885bb563c8.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "shareScope": "default",
+      "name": "next/head",
+      "version": "15.5.0",
+      "eager": false,
+      "id": "profile_app:next/head",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next-e1095c885bb563c8.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "shareScope": "default",
+      "name": "next/image",
+      "version": "15.5.0",
+      "eager": false,
+      "id": "profile_app:next/image",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next-e1095c885bb563c8.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "shareScope": "default",
+      "name": "next/link",
+      "version": "15.5.0",
+      "eager": false,
+      "id": "profile_app:next/link",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next-e1095c885bb563c8.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "shareScope": "default",
+      "name": "next/router",
+      "version": "15.5.0",
+      "eager": false,
+      "id": "profile_app:next/router",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next-e1095c885bb563c8.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "shareScope": "default",
+      "name": "next/script",
+      "version": "15.5.0",
+      "eager": false,
+      "id": "profile_app:next/script",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/next-e1095c885bb563c8.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "shareScope": "default",
+      "name": "react-dom",
+      "version": "19.1.1",
+      "eager": false,
+      "id": "profile_app:react-dom",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react-dom-7ee9dbb7a6729f5c.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "shareScope": "default",
+      "name": "react/jsx-dev-runtime",
+      "version": "19.1.0",
+      "eager": false,
+      "id": "profile_app:react/jsx-dev-runtime",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react-5ef225e4f29e5471.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./ProfileApp"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.1.1",
+      "shareScope": "default",
+      "name": "react/jsx-runtime",
+      "version": "19.1.1",
+      "eager": false,
+      "id": "profile_app:react/jsx-runtime",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react-5ef225e4f29e5471.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "shareScope": "default",
+      "name": "react",
+      "version": "19.1.0",
+      "eager": false,
+      "id": "profile_app:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react-5ef225e4f29e5471.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./ProfileApp"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^5.1.6",
+      "shareScope": "default",
+      "version": "5.1.6",
+      "name": "styled-jsx",
+      "eager": false,
+      "id": "profile_app:styled-jsx",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/styled-jsx-90138c60c9aaf485.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": "./ProfileApp",
+      "id": "profile_app:ProfileApp",
+      "name": "ProfileApp",
+      "requires": [
+        "react/jsx-dev-runtime",
+        "react"
+      ],
+      "file": "pages\\index.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_ProfileApp-e6c8bce3dc1fe0e9.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    }
+  ]
+}

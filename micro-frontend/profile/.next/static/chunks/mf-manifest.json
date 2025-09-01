@@ -1,0 +1,285 @@
+{
+  "id": "profile_app",
+  "name": "profile_app",
+  "metaData": {
+    "name": "profile_app",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "profile"
+    },
+    "remoteEntry": {
+      "name": "static/chunks/remoteEntry.js",
+      "path": "",
+      "type": "window"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "profile_app",
+    "pluginVersion": "0.18.3",
+    "prefetchInterface": false,
+    "publicPath": "auto"
+  },
+  "shared": [
+    {
+      "id": "profile_app:next/dynamic",
+      "name": "next/dynamic",
+      "version": "15.5.0",
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/node_modules_next_dynamic_js-_f0590.js",
+            "static/chunks/node_modules_next_dynamic_js-_f0591.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "profile_app:next/head",
+      "name": "next/head",
+      "version": "15.5.0",
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/node_modules_next_head_js-_e8060.js",
+            "static/chunks/node_modules_next_head_js-_e8061.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "profile_app:next/image",
+      "name": "next/image",
+      "version": "15.5.0",
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/node_modules_next_image_js-_b3070.js",
+            "static/chunks/node_modules_next_image_js-_b3071.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "profile_app:next/link",
+      "name": "next/link",
+      "version": "15.5.0",
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/node_modules_next_link_js-_13030.js",
+            "static/chunks/node_modules_next_link_js-_13031.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "profile_app:next/router",
+      "name": "next/router",
+      "version": "15.5.0",
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/node_modules_next_router_js-_b27b0.js",
+            "static/chunks/node_modules_next_router_js-_b27b1.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "profile_app:next/script",
+      "name": "next/script",
+      "version": "15.5.0",
+      "singleton": true,
+      "requiredVersion": "^15.5.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/node_modules_next_script_js-_b2bb0.js",
+            "static/chunks/node_modules_next_script_js-_b2bb1.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "profile_app:react-dom",
+      "name": "react-dom",
+      "version": "19.1.1",
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/node_modules_react-dom_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "profile_app:react/jsx-dev-runtime",
+      "name": "react/jsx-dev-runtime",
+      "version": "19.1.0",
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/node_modules_react_jsx-dev-runtime_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "profile_app:react/jsx-runtime",
+      "name": "react/jsx-runtime",
+      "version": "19.1.0",
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/node_modules_react_jsx-runtime_js-_34d0.js",
+            "static/chunks/node_modules_react_jsx-runtime_js-_9f31.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "profile_app:react",
+      "name": "react",
+      "version": "19.1.0",
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/node_modules_react_index_js-_1fb2.js",
+            "static/chunks/node_modules_react_index_js-_79d1.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "profile_app:styled-jsx/style",
+      "name": "styled-jsx/style",
+      "version": "5.1.6",
+      "singleton": true,
+      "requiredVersion": "^5.1.6",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/node_modules_styled-jsx_style_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "profile_app:styled-jsx",
+      "name": "styled-jsx",
+      "version": "5.1.6",
+      "singleton": true,
+      "requiredVersion": "^5.1.6",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/node_modules_styled-jsx_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "profile_app:ProfileApp",
+      "name": "ProfileApp",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/chunks/__federation_expose_ProfileApp.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./ProfileApp"
+    }
+  ]
+}
