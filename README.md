@@ -1,3 +1,3 @@
-- Implementation of HTMl-CSS-JavaScript
+- Implementation of HTML-CSS-JavaScript
 - Implementation of ServerSide Rendering/ClientSide Rendering
 - Implementation of Micro-Frontend Framework
