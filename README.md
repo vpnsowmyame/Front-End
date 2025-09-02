@@ -1,3 +1,3 @@
 - Implementation of HTML-CSS-JavaScript
-- Implementation of ServerSide Rendering/ClientSide Rendering
-- Implementation of Micro-Frontend Framework
+- Implementation of ServerSide Rendering/ClientSide Rendering using React
+- Implementation of Micro-Frontend architecture using React Framework
