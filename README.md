@@ -1,3 +1,3 @@
-- Sample Code implementation of HTMl-CSS-JavaScript
-- Sample Code implementation of ServerSide Rendering/ClientSide Rendering
-- Sample Code implementation of Micro-Frontend Framework
+- Implementation of HTMl-CSS-JavaScript
+- Implementation of ServerSide Rendering/ClientSide Rendering
+- Implementation of Micro-Frontend Framework
